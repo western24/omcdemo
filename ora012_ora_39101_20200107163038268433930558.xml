@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <Audit xmlns="http://xmlns.oracle.com/oracleas/schema/dbserver_audittrail-12_2.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://xmlns.oracle.com/oracleas/schema/dbserver_audittrail-12_2.xsd">
+   <Version>12.2</Version>
+<AuditRecord><Audit_Type>8</Audit_Type><EntryId>1</EntryId><Extended_Timestamp>2020-01-07T07:30:38.268962Z</Extended_Timestamp><DB_User>/</DB_User><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>CONNECT</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>1</StatementId><EntryId>2</EntryId><Extended_Timestamp>2020-01-07T07:30:38.288813Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>COMMIT</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>2</StatementId><EntryId>3</EntryId><Extended_Timestamp>2020-01-07T07:30:38.289056Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>COMMIT</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>4</StatementId><EntryId>4</EntryId><Extended_Timestamp>2020-01-07T07:30:48.159442Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>0</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>create user test identified by *</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>5</StatementId><EntryId>5</EntryId><Extended_Timestamp>2020-01-07T07:30:53.524768Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>0</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>grant dba to test</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>6</StatementId><EntryId>6</EntryId><Extended_Timestamp>2020-01-07T07:31:15.125997Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550111</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from user_tables</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>7</StatementId><EntryId>7</EntryId><Extended_Timestamp>2020-01-07T07:31:27.787966Z</Extended_Timestamp><DB_User>SYS</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>0</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>BEGIN dbms_cmp_int.drop_cmp_by_cmpid(:sb1, :sb2, :sb3); END;</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>7</StatementId><EntryId>8</EntryId><Extended_Timestamp>2020-01-07T07:31:28.689000Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>0</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>drop user test</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>8</StatementId><EntryId>9</EntryId><Extended_Timestamp>2020-01-07T07:31:42.934579Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>0</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>create table tbl1(col1 number)</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>9</StatementId><EntryId>10</EntryId><Extended_Timestamp>2020-01-07T07:31:48.555105Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550163</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>10</StatementId><EntryId>11</EntryId><Extended_Timestamp>2020-01-07T07:31:50.417627Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550163</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>11</StatementId><EntryId>12</EntryId><Extended_Timestamp>2020-01-07T07:31:50.617282Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550163</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>12</StatementId><EntryId>13</EntryId><Extended_Timestamp>2020-01-07T07:31:50.788781Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550163</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>14</StatementId><EntryId>14</EntryId><Extended_Timestamp>2020-01-07T07:31:50.961420Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>16</StatementId><EntryId>15</EntryId><Extended_Timestamp>2020-01-07T07:31:51.133857Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>18</StatementId><EntryId>16</EntryId><Extended_Timestamp>2020-01-07T07:31:51.306872Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>20</StatementId><EntryId>17</EntryId><Extended_Timestamp>2020-01-07T07:31:51.489909Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>22</StatementId><EntryId>18</EntryId><Extended_Timestamp>2020-01-07T07:31:51.661759Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>24</StatementId><EntryId>19</EntryId><Extended_Timestamp>2020-01-07T07:31:51.844765Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>26</StatementId><EntryId>20</EntryId><Extended_Timestamp>2020-01-07T07:31:52.023057Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>28</StatementId><EntryId>21</EntryId><Extended_Timestamp>2020-01-07T07:31:52.207685Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>30</StatementId><EntryId>22</EntryId><Extended_Timestamp>2020-01-07T07:31:52.388911Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>32</StatementId><EntryId>23</EntryId><Extended_Timestamp>2020-01-07T07:31:52.566172Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>34</StatementId><EntryId>24</EntryId><Extended_Timestamp>2020-01-07T07:31:52.748868Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>36</StatementId><EntryId>25</EntryId><Extended_Timestamp>2020-01-07T07:31:52.931665Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>38</StatementId><EntryId>26</EntryId><Extended_Timestamp>2020-01-07T07:31:53.114171Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>40</StatementId><EntryId>27</EntryId><Extended_Timestamp>2020-01-07T07:31:53.297202Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>42</StatementId><EntryId>28</EntryId><Extended_Timestamp>2020-01-07T07:31:53.484418Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>44</StatementId><EntryId>29</EntryId><Extended_Timestamp>2020-01-07T07:31:53.672506Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550164</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>46</StatementId><EntryId>30</EntryId><Extended_Timestamp>2020-01-07T07:31:53.871382Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550165</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>48</StatementId><EntryId>31</EntryId><Extended_Timestamp>2020-01-07T07:31:54.058160Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550165</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>50</StatementId><EntryId>32</EntryId><Extended_Timestamp>2020-01-07T07:31:54.246750Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550165</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>52</StatementId><EntryId>33</EntryId><Extended_Timestamp>2020-01-07T07:31:54.434300Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550165</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>54</StatementId><EntryId>34</EntryId><Extended_Timestamp>2020-01-07T07:31:54.622178Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550165</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>56</StatementId><EntryId>35</EntryId><Extended_Timestamp>2020-01-07T07:31:54.811195Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550165</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>58</StatementId><EntryId>36</EntryId><Extended_Timestamp>2020-01-07T07:31:55.175323Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>30550165</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>select * from tbl1</Sql_Text>
+</AuditRecord>
+<AuditRecord><Audit_Type>4</Audit_Type><Session_Id>4294967295</Session_Id><StatementId>60</StatementId><EntryId>37</EntryId><Extended_Timestamp>2020-01-07T07:32:01.280281Z</Extended_Timestamp><DB_User>/</DB_User><Ext_Name>oracle</Ext_Name><OS_User>oracle</OS_User><Userhost>dbsec12.jp.oracle.com</Userhost><OS_Process>39101</OS_Process><Terminal>pts/0</Terminal><Instance_Number>0</Instance_Number><Returncode>0</Returncode><Scn>0</Scn><OSPrivilege>SYSDBA</OSPrivilege><DBID>696549103</DBID><Current_User>SYS</Current_User>
+<Sql_Text>drop table tbl1</Sql_Text>
+</AuditRecord>
+</Audit>
